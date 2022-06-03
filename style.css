@@ -1,0 +1,29 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+
+/*Задаём глобальные параметры*/
+
+body {
+    background: rgb(212, 148, 170);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/*Делаем границу вокруг игрового поля*/
+
+canvas {
+    background: url("https://image.winudf.com/v2/image1/Y29tLnJpcHBlcmFwcHMuYTRvbWd3YWxscGFwZXJzX3NjcmVlbl8wXzE2MDE3MTYxMDlfMDcz/screen-0.jpg?fakeurl=1&type=.jpg") 0 0/100% 100% no-repeat;
+    border: 1px solid white;
+}
+
+h1 {
+    position: absolute;
+    left: 19px;
+    top: 19px;
+}
